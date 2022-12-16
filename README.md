@@ -69,10 +69,12 @@
             "build": "webpack"},
 
 
-12. In  src/webpack.config.js
+12. In  src/webpack.config.js,
 
     const path = require('path') 
     //to import the pathing function
+
+    inside the "module exports", after the mode
 
     entry:{
         bundle: path.resolve(__dirname, 'src/index.js')
